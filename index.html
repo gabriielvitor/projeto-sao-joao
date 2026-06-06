@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Viva São João</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Viva São João!</h1>
+        <p>Cultura, culinária e muita alegria caipira.</p>
+        <nav>
+            <ul>
+                <li><a href="#historia">Histórias</a></li>
+                <li><a href="#comidas">Comidas Típicas</a></li>
+                <li><a href="#brincadeiras">Brincadeiras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="historia">
+            <h2>A Tradição do são João</h2>
+            <p>A fogueira tá queimando, o balão tá subindo! Conheça mais sobre uma das maiores festas populares do Brasil...</p>
+            <p>O São João surgiu de antigas festas europeias e foi trazido ao Brasil pelos portugueses. Aqui, a tradição se misturou com costumes brasileiros e ganhou músicas, danças e comidas típicas.</p>
+
+            <p>Hoje, é uma das festas mais populares do país, marcada por fogueiras, quadrilhas, forró e muita alegria.</p>
+        </section>
+
+        <section id="comidas">
+
+            <h2>Delícias Juninas</h2>
+
+            <div class="cards-conteiner">
+
+                <div class="card-comida">
+                    <img src="imagens/pamonha.png" alt="Pamonha de Milho" class="img-comida">
+                    <h3>Pamonha</h3>
+                    <p>O clássico feito de milho verde, servido quentinho.</p>
+
+                    <a href="https://www.tudogostoso.com.br/receita/35-pamonha-doce.html" target="_blank">Receita</a>
+                </div>
+
+                <div class="card-comida">
+                    <img src="imagens/Fuba.png" alt="Bolo de Fubá" class="img-comida">
+                    <h3>Bolo de Fubá</h3>
+                    <p>Perfeito para acompanhar um cafezinho no balancê.</p>
+
+                    <a href="https://www.tudogostoso.com.br/receita/21560-bolo-de-fuba-simples.html" target="_blank">Receita</a>
+                </div>
+
+                <div class="card-comida">
+                    <img src="imagens/quentão.png" alt="Quentão" class="img-comida">
+                    <h3>Quentão</h3>
+                    <p>Para aquecer as noites frias de junho (versão sem álcool, claro!) </p>
+                    
+                    <a href="https://www.tudogostoso.com.br/receita/23171-quentao-sem-alcool.html">Receita</a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="brincadeiras">
+            <h2>Barracas de Brincadeiras</h2>
+            <ul>
+
+                <h4><li>Pescaria</li></h4>
+                    <p>A pescaria é uma brincadeira de festa junina em que os participantes tentam pescar peixinhos para ganhar prêmios. É uma das atrações mais divertidas dos arraiais.</p>
+
+                <h4><li>Tiro ao Alvo</li></h4>
+                    <p>O tiro ao alvo é uma brincadeira em que os participantes tentam acertar um alvo para ganhar pontos ou prêmios. É uma das atrações mais populares das festas juninas.</p>
+
+                <h4><li>Correio Elegante</li></h4>
+                    <p>O correio elegante é uma brincadeira em que as pessoas enviam mensagens divertidas, de amizade ou carinho para outras pessoas durante a festa junina.</p>
+
+            </ul>
+
+        </section>
+
+        <section id="correio-elegante">
+            <h2>Correio Elegante</h2>
+            <p>Envie um bilhetinho especial para alguém do arraiá!</p>
+
+            <div class="correio-conteiner">
+                <div class="formulario-correio">
+
+                    <input type="text" id="de-quem" placeholder="Seu nome (ou Anônimo)">
+
+                    <input type="text" id="para-quem" placeholder="Para quem é?">
+
+                    <textarea id="mensagem" placeholder="Escreva seu recadinho caipira..." rows="3"></textarea>
+
+                    <button id="btn-enviar">Enviar Bilhete</button>
+
+                </div>
+
+                <div id="mural-bilhete">
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido com &#x1F33D; por Gabriel para fins de estudo.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
